@@ -19,7 +19,6 @@ body {
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateY(0deg);
     transition: transform 1s;
 }
 
@@ -31,24 +30,4 @@ body {
     background-position: center;
     border-radius: 10px;
     backface-visibility: hidden;
-}
-
-.slider-inner .slide:nth-child(1) {
-    transform: rotateY(0deg) translateZ(300px);
-}
-
-.slider-inner .slide:nth-child(2) {
-    transform: rotateY(72deg) translateZ(300px);
-}
-
-.slider-inner .slide:nth-child(3) {
-    transform: rotateY(144deg) translateZ(300px);
-}
-
-.slider-inner .slide:nth-child(4) {
-    transform: rotateY(216deg) translateZ(300px);
-}
-
-.slider-inner .slide:nth-child(5) {
-    transform: rotateY(288deg) translateZ(300px);
 }
